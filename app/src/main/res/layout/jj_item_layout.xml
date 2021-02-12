@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/jj_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/example_title"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:id="@+id/jj_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jj_name"
+        android:layout_alignStart="@+id/jj_name"
+        android:text="@string/example_code"
+        android:fontFamily="@font/ubuntu_mono"
+        android:textColor="#424242" />
+
+    <TextView
+        android:id="@+id/jj_est"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/jj_name"
+        android:layout_alignBottom="@+id/jj_code"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:text="@string/example_est"
+        android:fontFamily="@font/ubuntu_mono"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/jj_status_panel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/jj_code"
+        android:layout_alignBottom="@+id/jj_code"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/jj_code"
+        android:orientation="horizontal" />
+</RelativeLayout>

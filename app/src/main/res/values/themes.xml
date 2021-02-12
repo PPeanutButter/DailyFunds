@@ -1,0 +1,8 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.app" parent="android:Theme.Material.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/purple_200</item>
+        <item name="android:statusBarColor">#00000000</item>
+    </style>
+</resources>

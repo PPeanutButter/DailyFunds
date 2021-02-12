@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/jj_mount"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/jj_name"
+    android:layout_alignBottom="@+id/jj_code"
+    android:layout_toEndOf="@+id/jj_code"
+    android:background="@drawable/jj_mount_bg"
+    android:gravity="center"
+    android:paddingStart="4dp"
+    android:paddingEnd="4dp"
+    android:textColor="#2196F3"
+    android:textSize="10sp"
+    android:layout_marginStart="8dp"
+    android:text="@string/example_hold"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="SmallSp" />

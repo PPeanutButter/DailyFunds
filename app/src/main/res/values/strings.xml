@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">每日一基</string>
+    <string name="example_title">天弘中证医药100C</string>
+    <string name="example_code">001551</string>
+    <string name="example_est">+1.98%</string>
+    <string name="example_high_est">今晚吃鸡</string>
+    <string name="example_low_est">估值大跌</string>
+    <string name="todo">TODO</string>
+    <string name="example_hold">持有￥200</string>
+    <string name="example_noti_time">2021-01-21 11:30</string>
+</resources>
